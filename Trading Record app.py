@@ -4,7 +4,7 @@ import sqlite3
 import datetime
 
 # --- 데이터베이스 초기화 및 함수 ---
-DB_FILE = "trading_journal.db"
+DB_FILE = "trading_journal_v2.db"
 
 def init_db():
     conn = sqlite3.connect(DB_FILE)
